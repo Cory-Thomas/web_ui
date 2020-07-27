@@ -21,14 +21,14 @@ vertical-align: baseline;
 }
 
 /*SHOW LAYOUT*/
-/* *{
+*{
     box-sizing:border-box;
     padding:0;
     margin:0;
     max-width:100%;
     border:1px solid grey;
     text-align:center;
-} */
+}
 
 /*INDEX AND TEAM*/
 #main_content{
@@ -38,7 +38,7 @@ vertical-align: baseline;
 #teammates{
     display: flex;
     flex-wrap: wrap;
-    justify
+    justify-content: space-evenly;
 }
 
 #teammates img{
