@@ -30,60 +30,23 @@ vertical-align: baseline;
     text-align:center;
 }
 
-/*INDEX AND TEAM*/
-#index_content_top{
+/*GENERAL STYLES*/
+#header_bar{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: space-between;
+    padding: 1%;
+    margin-bottom: 1%;
+}
+
+#main_content{
     padding: .5%;
-}
-
-#index_content_top h2{
-    font-size: 3rem;
-}
-
-#welcome_h2_2{
-    color: #186049;
-}
-
-#house_plant_pic{
-    height: auto;
-    width: 70%;
-}
-
-#ic_signup_btn{
-    height: auto;
-    width: 38%;
-    padding: 2%;
-}
-
-#index_content_bottom{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding: 3%;
-}
-
-#index_content_bottom img{
-    height: auto;
-    width: 30%;
-}
-
-#watering_can, #plant_data, #plant_notes{
-    height: auto;
-    width: 30%;
-    padding: 5%;
-}
-
-#team_content{
-    padding: .5%;    
 }
 
 #teammates{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+ 
+    align-content: center;
 }
 
 #teammates img{
@@ -95,6 +58,19 @@ vertical-align: baseline;
     height: auto;
     width: 50%;
     padding: 2%;
+}
+
+#footer_bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: .5%;
+    margin-top: 1%;
+}
+
+#footer_bar a{
+    text-decoration: none;
+    color: #186049;
 }
 
 /* RESPONSIVENESS */
