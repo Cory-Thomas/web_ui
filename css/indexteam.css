@@ -34,7 +34,7 @@ vertical-align: baseline;
 #index_content_top{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     padding: .5%;
 }
@@ -76,14 +76,11 @@ vertical-align: baseline;
     padding: 5%;
 }
 
-#team_content{
-    padding: .5%;    
-}
-
 #teammates{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center; 
 }
 
 #teammates img{
@@ -92,8 +89,6 @@ vertical-align: baseline;
 }
 
 #teammate_1, #teammate_2, #teammate_3, #teammate_4, #teammate_5, #teammate_6{
-    height: auto;
-    width: 50%;
     padding: 2%;
 }
 
