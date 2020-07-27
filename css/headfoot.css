@@ -21,43 +21,21 @@ vertical-align: baseline;
 }
 
 /*SHOW LAYOUT*/
-*{
+/* *{
     box-sizing:border-box;
     padding:0;
     margin:0;
     max-width:100%;
     border:1px solid grey;
     text-align:center;
-}
+} */
 
-/*GENERAL STYLES*/
+/*HEADER AND FOOTER*/
 #header_bar{
     display: flex;
     justify-content: space-between;
     padding: 1%;
     margin-bottom: 1%;
-}
-
-#main_content{
-    padding: .5%;
-}
-
-#teammates{
-    display: flex;
-    flex-wrap: wrap;
- 
-    align-content: center;
-}
-
-#teammates img{
-    height: auto;
-    width: 50%;
-}
-
-#teammate_1, #teammate_2, #teammate_3, #teammate_4, #teammate_5, #teammate_6{
-    height: auto;
-    width: 50%;
-    padding: 2%;
 }
 
 #footer_bar{

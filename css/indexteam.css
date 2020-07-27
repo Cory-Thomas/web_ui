@@ -21,23 +21,16 @@ vertical-align: baseline;
 }
 
 /*SHOW LAYOUT*/
-*{
+/* *{
     box-sizing:border-box;
     padding:0;
     margin:0;
     max-width:100%;
     border:1px solid grey;
     text-align:center;
-}
+} */
 
-/*GENERAL STYLES*/
-#header_bar{
-    display: flex;
-    justify-content: space-between;
-    padding: 1%;
-    margin-bottom: 1%;
-}
-
+/*INDEX AND TEAM*/
 #main_content{
     padding: .5%;
 }
@@ -45,8 +38,7 @@ vertical-align: baseline;
 #teammates{
     display: flex;
     flex-wrap: wrap;
- 
-    align-content: center;
+    justify
 }
 
 #teammates img{
@@ -58,19 +50,6 @@ vertical-align: baseline;
     height: auto;
     width: 50%;
     padding: 2%;
-}
-
-#footer_bar{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: .5%;
-    margin-top: 1%;
-}
-
-#footer_bar a{
-    text-decoration: none;
-    color: #186049;
 }
 
 /* RESPONSIVENESS */
