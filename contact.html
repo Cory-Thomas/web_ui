@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <title>Water My Plants</title>
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="css/about-contact.css" />
   </head>
 <body>
 <header>
@@ -25,19 +26,27 @@
         <h1>Contact Us</h1>
         <div></div>
     </section>
-    <section>
+    <section class="bgColor">
 
-        <form>
-            <label for="name">Enter Your Name:</label>
+        <form data-netlify="true">
+          <div>
+            <label for="name">Enter Your Name:</label><br>
             <input type="text" id="name" name="name" placeholder="Your name...">
-
-            <label for="email">Enter Your Email:</label>
+          </div>
+            
+          <div>
+            <label for="email">Enter Your Email:</label><br>
             <input type="email" id="email" name="email" placeholder="name@gmail.com">
-        
-            <label for="subject">Subject:</label>
-            <textarea id="subject" name="subject" placeholder="Write something..."></textarea>
-        
-            <input type="submit" value="Submit">
+          </div>  
+            
+          <div>
+            <label for="subject">Subject:</label><br>
+            <textarea id="subject" name="subject" placeholder="Additional Information Here"></textarea>
+          </div>  
+
+          <div>
+            <button type="submit">Send</button>
+          </div>  
           </form>
 
     </section>

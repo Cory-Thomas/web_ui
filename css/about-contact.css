@@ -1,0 +1,70 @@
+html {
+    font-size:62.5%;
+}
+
+main {
+    font-size: 1.6rem;;
+    
+}
+
+h1 {
+    font-size: 4rem;
+    padding-bottom: 5rem;
+    background-color: white;;
+}
+
+main img {
+    width: 50%;
+    margin-left: 50%;
+}
+
+.bgColor {
+    background-color: #F8F6F5;
+}
+
+.bgColor div {
+    width: 60%;
+    margin: 0 auto;
+    height: 25vh;
+    padding-top: 6rem;
+}
+
+.bgColor form {
+    height: 35vh;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.bgColor form div {
+    padding-top: 2rem;
+}
+
+.bgColor form div:first-child {
+    padding-top: 6rem;
+}
+
+.bgColor form div:last-child {
+    padding-top: 4rem;
+}
+
+form button {
+    padding: .5rem;
+    width: 80px;
+    border-radius: 8px;;
+}
+
+@media (max-width: 500px){
+    .bgColor div {
+        height: 30vh;
+        width: 80%;
+        padding-top: 4rem;
+    }
+
+    .bgColor form {
+        height: 45vh;
+    }
+
+    main {
+        padding-bottom: 5rem;
+    }
+}
