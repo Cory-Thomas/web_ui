@@ -101,7 +101,6 @@ vertical-align: baseline;
 /*RESPONSIVENESS*/
 @media(max-width: 800px){
 #welcome_left{
-    flex-wrap: wrap;
     width: 40%;
 }
 
@@ -115,12 +114,7 @@ vertical-align: baseline;
 }
 
 #welcome_right{
-    flex-wrap: wrap;
     width: 50%;
-}  
-
-#team_content{
-    flex-wrap: wrap;
 }
 
 #teammates img{
@@ -130,7 +124,6 @@ vertical-align: baseline;
 
 #teammate_1, #teammate_2, #teammate_3, #teammate_4, #teammate_5, #teammate_6{
     width: 50%;
-    flex-wrap: wrap;
 }
 }
 

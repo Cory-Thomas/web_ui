@@ -53,7 +53,24 @@ vertical-align: baseline;
 
 /*RESPONSIVENESS*/
 @media(max-width: 800px){
+#header_left img{
+    height: auto;
+    width: 60%;
+}
 
+#header_right img{
+    height: auto;
+    width: 40%;  
+}
+
+#footer_top img{
+    height: auto;
+    width: 20%;
+}
+
+#footer_bottom a{
+    font-size: 85%;
+}
 }
 
 /*END OF FILE*/
