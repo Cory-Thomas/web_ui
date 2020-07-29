@@ -28,6 +28,10 @@ h1 {
     font-size: 1.6rem;
 }
 
+footer {
+    margin-top: 5rem;
+}
+
 /* -------------- ABOUT STYLES ------------------- */
 
 main img {
@@ -47,12 +51,12 @@ main img {
 /* -------------- CONTACT STYLES ------------------- */
 
 form {
-    height: 40%;
+    height: 50%;
     padding-top: 3rem;
 }
 
 form div {
-    margin: 20px auto;
+    margin: 18px auto;
 }
 
 form input, form textarea {
