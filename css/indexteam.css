@@ -30,11 +30,12 @@ vertical-align: baseline;
     text-align:center;
 }
 
-/*INDEX AND TEAM*/
+/*POPPINS FONT*/
 body{
     font-family: 'Poppins', sans-serif;
 }
 
+/*INDEX AND TEAM*/
 #index_content_top{
     display: flex;
     flex-wrap: wrap;
