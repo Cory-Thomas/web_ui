@@ -1,10 +1,12 @@
+/* -------------- BASE STYLES ------------------- */
+
 html {
     font-size:62.5%;
 }
 
 main {
-    font-size: 1.6rem;;
-    
+    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 h1 {
@@ -13,55 +15,71 @@ h1 {
     background-color: white;;
 }
 
+.bgColor {
+    background-color: #F8F6F5;
+}
+
+
+
+/* -------------- ABOUT STYLES ------------------- */
+
 main img {
     width: 50%;
     margin-left: 50%;
 }
 
-.bgColor {
-    background-color: #F8F6F5;
-}
-
 .about {
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
-    height: 25vh;
+    height: 30vh;
     padding-top: 6rem;
 }
 
-.bgColor form {
-    height: 35vh;
-    width: 60%;
-    margin: 0 auto;
+
+
+/* -------------- CONTACT STYLES ------------------- */
+
+form {
+    height: 40%;
+    padding-top: 3rem;
 }
 
-.bgColor form div {
-    padding-top: 2rem;
-}
-
-.bgColor form div:first-child {
-    padding-top: 6rem;
-}
-
-.bgColor form div:last-child {
-    padding-top: 4rem;
+form div {
+    margin: 20px auto;
 }
 
 form button {
     padding: .5rem;
     width: 80px;
-    border-radius: 8px;;
+    border-radius: 8px;
+    background-color: #397D54;
+    color: white;
 }
 
+form button:hover {
+    width: 84px;
+    font-size: 1.62rem;
+    background-color: #306846;
+}
+
+
+
+/* -------------- MEDIA QUERIES ------------------- */
+
+/* @media(max-width: 800px){
+    
+} */
+
 @media (max-width: 500px){
-    .bgColor div {
-        height: 30vh;
-        width: 80%;
-        padding-top: 4rem;
+
+    .about {
+        padding-top: 3rem;
+        height: 70vh;
     }
 
-    .bgColor form {
-        height: 45vh;
+    form {
+        height: 42%;
+        padding-top: .5rem;
     }
 
     main {
