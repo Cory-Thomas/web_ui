@@ -30,6 +30,10 @@ vertical-align: baseline;
     text-align:center;
 }
 
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
 /*SIDE ANIMATION*/
 .menu {
     font-weight: 100;
