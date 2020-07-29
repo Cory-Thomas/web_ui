@@ -36,6 +36,10 @@ body{
 }
 
 /*INDEX AND TEAM*/
+html{
+    font-size:62.5%;
+}
+
 #index_content_top{
     display: flex;
     flex-wrap: wrap;
